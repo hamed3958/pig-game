@@ -23,42 +23,56 @@
   <div class="container">
     <div class="row">
 
-      <div class="col-md-5 bg-success text-center p-5">
+      <div class="col-md-5 bg-primary text-center p-5" id="player--0">
+        <div class="d-none text-success" id="winner--0">
+          <h2>winner !!!</h2>
+        </div>
         <div class="top-score bg-light my-5 p-5">
           <h2>Total score</h2>
           <h4>player 1</h4>
-          <p>0</p>
+          <p id="score--0">0</p>
         </div>
 
         <div class="current-score bg-light my-5 p-5">
           <h3>current score</h3>
-          <p class="fs-3">0</p>
+          <p class="fs-3" id="current--0">0</p>
         </div>
       </div>
 
-      <div class="col-md-2  bg-info text-center">
-        <div class="my-5">
-          <img src="images/dice-1.png" alt="dice" class="img-fluid ">
+      <div class="col-md-2 bg-info text-center">
+        <div class="mt-5">
+          <h5>Reach to 30 points to win !</h5>
         </div>
-        
-        <div class="my-2">
-          <button class="btn btn-outline-secondary ">ROll Dice</button>
+
+        <div class="my-4">
+          <button class="btn btn-outline-secondary mb-5" id="start-btn" title="to start click on DICE">REFRESH</button>
         </div>
-        <div class="my-5">
-          <button class="btn btn-outline-secondary btn-lg m-5">HOLD</button>
+
+        <div class="my-4">
+          <img src="images/dice-0.png" alt="dice" class="img-fluid clickable" onclick="rolling()">
+        </div>
+
+        <div class="mb-2">
+          <p class=" ">To rolling, click on the Dice.</p>
+        </div>
+        <div class="my-3">
+          <button class="btn btn-secondary btn-lg m-5" onclick="hold()">HOLD</button>
         </div>
       </div>
 
-      <div class="col-md-5 bg-warning text-center p-5">
+      <div class="col-md-5 bg-info text-center p-5" id="player--1">
+        <div class="d-none text-light" id="winner--1">
+          <h2>winner !!!</h2>
+        </div>
         <div class="top-score bg-light my-5 p-5">
           <h2>Total score</h2>
-          <h4>player 1</h4>
-          <p>0</p>
+          <h4>player 2</h4>
+          <p id="score--1">0</p>
         </div>
 
         <div class="current-score bg-light my-5 p-5">
           <h3>current score</h3>
-          <p class="fs-3">0</p>
+          <p class="fs-3" id="current--1">0</p>
         </div>
       </div>
 

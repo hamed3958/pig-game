@@ -2,3 +2,19 @@ body {
   font-family: "Audiowide", cursive;
   font-family: "Fuzzy Bubbles", cursive;
 }
+
+.clickable {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.clickable:hover {
+  transform: scale(1.1);
+}
+
+#player--0,
+#player--1 {
+  transition: 0.5s;
+}
