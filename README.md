@@ -10,7 +10,7 @@ Users could be able to:
 
 ## Links
 
-- Live Site URL: [Let's play Pig](https://hamed3958.github.io/pig-game)
+- Live Site URL: [Let's play Pig](https://hamed3958.github.io/pig-game/)
 
 ### Built with
 
